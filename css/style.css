@@ -2,6 +2,8 @@ body {
   margin: 0;
   margin-top: 0;
   text-align:center;
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 14%);
 
 
 }
@@ -27,6 +29,15 @@ font-size: 20px;
 color: #9D9D9D;
 }
 
+hr{
+  width: 5%;
+  border-style: dotted;
+  border-width: 10px;
+  border-top: 0;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-color: grey;
+}
 
 .namecard {
   text-align: center;
@@ -90,13 +101,106 @@ margin-top: 40px;
 
 
 .ux {
-  width: 25%;
+  width: 30%;
   float: left;
   margin-right: 30px;
 }
 
 .social-media {
-  width: 25%;
+  width: 30%;
   float: right;
   margin-right: 30px;
+
+}
+
+.skill-title2{
+  font-size: 45px;
+}
+
+.skill-description1{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.skill-description2{
+  margin-top: 100px;
+}
+
+.bottom-container{
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background: rgb(146,148,153);
+background: linear-gradient(90deg, rgba(146,148,153,1) 0%, rgba(177,186,187,1) 39%, rgba(255,255,255,1) 100%);
+}
+
+.btn{
+border-color: black;
+border-style: solid;
+width:100px;
+height:100px;
+margin-top: 100px;
+font-size: 40px;
+font-style: normal;
+color: black;
+text-decoration: none;
+margin-bottom: 50px;
+padding: 10px;
+border-radius: 3%;
+font-family: 'Rubik', sans-serif;
+}
+.space {
+  margin-bottom: 50px;
+}
+.btn:hover{
+  text-decoration: line-through;
+  text-decoration-color: grey;
+  color: grey;
+  border-color: grey;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: linear-gradient(
+45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: white;
+
+
+
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+
+
+}
+
+/* Twitter */
+.fa-github {
+  background: black;
+  color: white;
+
+}
+
+.copyright {
+  color: black;
 }
